@@ -112,6 +112,8 @@ Suggested cointegrated pairs:
 | `Transaction Cost` | Round-trip cost in basis points | 5bps |
 
 ---
+This project demonstrates a practical implementation of statistical arbitrage using robust quantitative methods. 
+It combines financial theory with real-time visualization to create an intuitive trading research tool.
 
 ## ⚠️ Disclaimer
 
