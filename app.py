@@ -49,8 +49,14 @@ html, body, [class*="css"] {
 [data-testid="stSidebar"] .stMarkdown h3 {
     font-family: 'Space Mono', monospace;
     color: #38bdf8;
-}
+   def main():
+    _check_python_version()
+    _check_tkinter()
+    _check_data_files()
 
+    from interface import launch
+    launch()
+    }
 /* ── Metric Cards ── */
 [data-testid="metric-container"] {
     background: linear-gradient(135deg, #0f1729 0%, #131d35 100%);
